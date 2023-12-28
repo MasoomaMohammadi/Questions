@@ -49,7 +49,7 @@ body {
 .show-text .text {
   display: block;
 }
-.minus-icon {
+.hiden-icon {
   display: none;
 }
 .show-text .hiden-icon {
@@ -69,7 +69,4 @@ svg {
   cursor:pointer;
 }
 
-.hiden-icon {
-  display:none;
-}
 
