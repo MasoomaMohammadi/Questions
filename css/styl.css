@@ -9,7 +9,6 @@ body {
  display: flex;
  align-items: center;
  justify-content: center;
- /* text-align: center; */
  flex-direction: column;
  gap:2rem;
  margin-bottom:2rem;
@@ -42,27 +41,35 @@ body {
   color:gray;
 }
 
+//========================
 .text {
   display:none;
 }
+
+.show-text .text {
+  display: block;
+}
+.minus-icon {
+  display: none;
+}
+.show-text .hiden-icon {
+  display: inline;
+}
+.show-text .blok-icon {
+  display: none;
+}
+//==========================
 
 svg {
   width:20px;
   height:20px;
   color:#DD6CC7;
   border:2px solid #DD6CC7;
-   font-size: 30px;
-   cursor:pointer;
+  font-size: 30px;
+  cursor:pointer;
 }
-
-/* .blok-icon:hover {
-  display:none;
-} */
 
 .hiden-icon {
   display:none;
 }
 
-/* .blok-icon .hiden-icon:hover {
-  display:block;
-} */
