@@ -1,4 +1,3 @@
-
 let textShow = document.querySelectorAll(".div");
 
 textShow.forEach((qustion) => {
